@@ -1,0 +1,34 @@
+       repository:
+         tag:   -$BUILD_NUMBER
+         assets:
+          image: fridade/revive:assets
+       
+         carts:
+          image: fridade/revive:cart
+       
+         cart_dynamodb:
+          image: fridade/revive:cart-dynamodb
+        
+         catalog:
+          image: fridade/revive:catalog
+       
+        
+         catalog_mysql:
+          image: fridade/revive:catalog-mysql
+       
+         checkout:
+          image: fridade/revive:checkout
+       
+         checkout_redis:
+          image: fridade/revive:checkout-db
+       
+         orders:
+          image: fridade/revive:orders
+       
+         orders_mysql:
+          image: fridade/revive:orders-mysql
+       
+         orders_rabbitmq:
+          image: fridade/revive:orders-rabbitmq
+         ui:
+          image: fridade/revive:ui

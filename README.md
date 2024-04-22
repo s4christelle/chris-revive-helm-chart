@@ -1,1 +1,1 @@
-# chris-revive-helm-chart
+# revive-helm-chart
